@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ToyRobot": {
+      "commandName": "Project",
+      "commandLineArgs": "TABLE_SIZE_ENTRY"
+    }
+  }
+}

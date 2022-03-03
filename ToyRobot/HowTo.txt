@@ -1,0 +1,16 @@
+﻿Toy Robot
+
+How To:
+
+	1. The program can run in two modes which is controlled by a command line argument "TABLE_SIZE_ENTRY":
+		a) Default Mode - This will by default create a table top with X and Y lengths as 6
+		b) Table Top Creation mode - This will request that you specify the X and Y lengths. 
+	2. After the creation/default of the table top, the program will accept the 5 different commands specified in the solution document 
+	3. It should be as simple as Running the .EXE file for this program or running the solution. 
+
+Programmer Summary:
+
+	All of the UI is located within the ToyRobot Console Application. 
+	All of the Logic, validation, data models etc are in teh ToyRobot.Logic class library.
+	I've included a very basic test project into this solution with 4 tests against the PLACE command.
+	(normally it wouldn't be in this solution, it would be in its own solution referencing the ToyRobot.Logic class library, but for this example, it means one less solution for you to open.
